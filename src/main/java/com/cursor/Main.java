@@ -3,6 +3,7 @@ package com.cursor;
 import com.cursor.Task_a.Main_Task_a;
 import com.cursor.Task_b.Main_Task_b;
 import com.cursor.Task_c.Main_Task_c;
+import com.cursor.Task_d.Main_Task_d;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,6 +22,10 @@ public class Main {
         // Tack c:
         Main_Task_c mainC = new Main_Task_c();
         mainC.startTaskC();
+
+        // Task d:
+        Main_Task_d mainD = new Main_Task_d();
+        mainD.seasonsMonthsDays();
 
     }
 }
